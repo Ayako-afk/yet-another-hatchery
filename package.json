@@ -1,23 +1,20 @@
 {
-  "name": "yet-another-hatchery",
+  "name": "hatchery-backend",
   "version": "1.0.0",
-  "description": "A DragonCave hatchery.",
-  "license": "MIT",
+  "description": "Backend for a Dragcave hatchery using the v2 API.",
   "main": "server/index.js",
-  "devDependencies": {
-    "chokidar-cli": "^1.2.1",
-    "nodemon": "^1.18.4",
-    "stylus": "^0.54.5",
-    "uglify-js": "^3.4.9"
+  "scripts": {
+    "start": "node server/index.js"
   },
   "dependencies": {
-    "compression": "^1.7.3",
-    "dotenv": "^6.0.0",
-    "express": "^4.16.3",
-    "jsdom": "^12.0.0",
-    "node-fetch": "^2.2.0",
-    "pg": "^7.4.3",
-    "pg-hstore": "^2.3.2",
-    "sequelize": "^4.38.0"
-  }
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fast-xml-parser": "^4.3.2",
+    "node-fetch": "^2.6.7",
+    "pg": "^8.11.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1"
+  },
+  "license": "MIT"
 }
